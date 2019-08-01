@@ -12,6 +12,46 @@ body{
     float: left;
 }
 
+input{
+    margin-bottom: 20px;
+}
+
+#button{
+    background: rgb(20, 20, 19);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: lightcyan;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+}
+
+#button:hover{
+    background: blue;
+    border: 1px solid yellow;
+    color: rgb(247, 243, 243);
+    cursor: pointer;
+}
+
+
+
 #quiz-submit{
     visibility: hidden;
+    background:lightpink;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 20px;
+    font-size:30px;
+}
+
+#picture{
+    width: 375px;
+    height: 245px;
+}
+
+#mc{
+    display: inline;
 }
