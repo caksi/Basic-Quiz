@@ -16,7 +16,7 @@ function check() {
 
     //Custom Picture Based on how well you do
     const messages = ["Great Job", "Not Bad", "Good Luck Next Time"];
-    const pictures = ["images/Good-Job.png", "images/Not-Bad.png", "images/Sorry.png"];
+    const pictures = ["images/Good-Job.jpg", "images/Not-Bad.jpg", "images/Sorry.jpg"];
 
     let range;
 
