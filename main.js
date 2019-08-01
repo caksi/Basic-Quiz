@@ -15,4 +15,5 @@ if (question3 == "Honey"){
 }
 
 document.getElementById("quiz-submit").style.visibility="visible";
+document.getElementById("number_of_correct_answer").innerHTML = "You got " + correct + " correct.";
 }
