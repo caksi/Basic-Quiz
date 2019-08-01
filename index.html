@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Quiz</title>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Krub&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>Quizzing</h1>
+
+    <form id="quiz" name="quiz">
+        <p>What is the color the sky?</p>
+        <input type="radio" id="mc" name="question1" value="Blue">Blue <br>
+        <input type="radio" id="mc" name="question1" value="Green">Green <br>
+        <input type="radio" id="mc" name="question1" value="Yellow">Yellow <br>
+
+        <p>What is the color of some apple?</p>
+        <input type="radio" id="mc" name="question2" value="Orange">Orange<br>
+        <input type="radio" id="mc" name="question2" value="Purple">Purple<br>
+        <input type="radio" id="mc" name="question2" value="Red">Red <br>
+
+        <p>What does bees produces?</p>
+        <input type="radio" id="mc" name="question3" value="Water">Water<br>
+        <input type="radio" id="mc" name="question3" value="Honey">Honey<br>
+        <input type="radio" id="mc" name="question3" value="Pineapple-Juice">Pineapple-Juice <br>
+
+        <input type="button" id="button" value="I am finished" onclick="check();">
+
+
+    </form>
+
+    <div id="quiz-submit">
+        <p id="number_of_correct_answer">Quiz Completed</p>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
