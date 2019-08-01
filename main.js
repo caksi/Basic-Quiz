@@ -16,6 +16,7 @@ if (question3 == "Honey"){
 
 //Custom Picture Based on how well you do
 const messages =["Great Job", "Not Bad", "Good Luck Next Time"];
+const pictures =["images/Good-Job.png", "images/Not-Bad.png", "images/Sorry.png"];
 
 let range;
 
@@ -33,4 +34,5 @@ document.getElementById("quiz-submit").style.visibility ="visible";
 
 document.getElementById("message").innerHTML = messages[range];
 document.getElementById("number_of_correct_answer").innerHTML = "You got " + correct + " correct.";
+document.getElementById("picture").src = pictures[range];
 }

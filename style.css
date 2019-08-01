@@ -2,6 +2,16 @@ body{
     font-family: 'Krub', sans-serif;
 }
 
+#quiz{
+
+    margin-left: 10px;
+    background: yellowgreen;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    float: left;
+}
+
 #quiz-submit{
     visibility: hidden;
 }
