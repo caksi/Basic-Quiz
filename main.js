@@ -23,12 +23,14 @@ if (correct < 1) {
     range = 2;
 }
 if (correct > 0 && correct < 3) {
-    score = 1;
+    range = 1;
 }
 if (correct > 2) {
-    score = 0;
+    range = 0;
 }
 
 document.getElementById("quiz-submit").style.visibility ="visible";
+
+document.getElementById("message").innerHTML = messages[range];
 document.getElementById("number_of_correct_answer").innerHTML = "You got " + correct + " correct.";
 }
