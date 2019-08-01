@@ -15,6 +15,9 @@ if (question3 == "Honey"){
 }
 
 //Custom Picture Based on how well you do
+const messages =["Great Job", "Not Bad", "Good Luck Next Time"];
+
+let range;
 
 if (correct < 1) {
     range = 2;
